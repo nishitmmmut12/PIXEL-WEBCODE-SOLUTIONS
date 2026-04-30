@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixels Webcode Solutions | Premium Web Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="purepixel.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">PIXELS<span> WEBCODE</span></div>
+        <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">Founders</a></li>
+            <li><a href="javascript:void(0)" class="btn-nav" onclick="toggleContact()">Get a Quote</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>High-Impact Digital Solutions by <span class="highlight">Pixels Webcode.</span></h1>
+            <p>Expert web development for Education, Hospitality, and Wellness sectors. Scalable sites built by Nishit & Adarsh.</p>
+            <div class="hero-btns">
+                <a href="#services" class="btn-primary">Explore Solutions</a>
+                <button onclick="toggleContact()" class="btn-secondary">Contact Us</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <h2 class="section-title">Industry Solutions</h2>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="icon">🎓</div>
+                    <h3>Education</h3>
+                    <ul>
+                        <li>LMS Integration</li>
+                        <li>Student Portals</li>
+                        <li>Online Fee Payment</li>
+                    </ul>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon">🍽️</div>
+                    <h3>Restaurants</h3>
+                    <ul>
+                        <li>Digital QR Menus</li>
+                        <li>Table Booking</li>
+                        <li>Order Management</li>
+                    </ul>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon">✂️</div>
+                    <h3>Salons</h3>
+                    <ul>
+                        <li>Booking Systems</li>
+                        <li>Service Catalogs</li>
+                        <li>Stylist Profiles</li>
+                    </ul>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon">💪</div>
+                    <h3>Gyms</h3>
+                    <ul>
+                        <li>Membership Management</li>
+                        <li>Workout Tracking</li>
+                        <li>Trainer Branding</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="founders section-padding">
+        <div class="container">
+            <h2 class="section-title">The Founders</h2>
+            <div class="founder-grid">
+                <div class="card founder-card reveal">
+                    <div class="badge">Lead Developer</div>
+                    <h3>Nishit Sharma</h3>
+                    <p>CSE Specialist focusing on interactive frontend experiences and scalable code.</p>
+                    <a href="https://nishitmmmut12.github.io/my-portfolio/my%20portfolio.html" target="_blank" class="portfolio-btn">View Portfolio</a>
+                </div>
+                <div class="card founder-card reveal">
+                    <div class="badge">Strategy & Growth</div>
+                    <h3>Adarsh Sharma</h3>
+                    <p>Expert in business transformation, client relations, and digital scaling strategy.</p>
+                    <button onclick="toggleContact()" class="portfolio-btn">Let's Talk</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="whatsapp-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="toggleContact()">&times;</span>
+            <h3>Pixels Webcode Solutions</h3>
+            <p>Who would you like to speak with?</p>
+            <div class="wa-options">
+                <a href="https://wa.me/919621830300?text=Hi%20Pixels%20Webcode,%20I'm%20interested%20in%20a%20website" target="_blank" class="wa-choice">
+                    <strong>Nishit Sharma</strong><span>Technical Lead</span>
+                </a>
+                <a href="https://wa.me/918948892551?text=Hi%20Pixels%20Webcode,%20I'm%20interested%20in%20a%20website" target="_blank" class="wa-choice">
+                    <strong>Adarsh Sharma</strong><span>Business Head</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="purepixel.js"></script>
+</body>
+</html>
